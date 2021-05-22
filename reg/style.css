@@ -13,7 +13,7 @@ body{
     padding: 10px 10px;
 }
 .logo:hover{
-    color:white;
+    color:black;
     transition:1s;
 }
 .mainnav{
@@ -38,7 +38,7 @@ body{
     padding: 30px 10px 30px 10px;
 }
 .innerli:hover{
-    color: white;
+    color: black;
 }
 
 /*mtavari gverdis css kodi dakopirebuli da chasmuli*/

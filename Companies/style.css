@@ -13,7 +13,7 @@ body{
     padding: 10px 10px;
 }
 .logo:hover{
-    color:white;
+    color:black;
     transition:1s;
 }
 .mainnav{
@@ -38,7 +38,7 @@ body{
     padding: 30px 10px 30px 10px;
 }
 .innerli:hover{
-    color: white;
+    color: black;
 }
 .maindiv{
     padding-top:200px;
@@ -52,8 +52,8 @@ body{
     box-shadow:0 15px 15px 0 rgba(0, 0, 0, 0.5);
 }
 .flexcolumn:hover{
-    box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 1);
-    border-bottom: 1px solid black;
+    box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.8);
+    border: 1px solid darkslategray;
     cursor: pointer;
 }
 .benz{

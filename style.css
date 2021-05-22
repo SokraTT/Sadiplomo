@@ -9,7 +9,7 @@ body{
     padding: 10px 10px;
 }
 .logo:hover{
-    color:white;
+    color:black;
     transition:1s;
 }
 .mainnav{
@@ -34,30 +34,17 @@ body{
     padding: 30px 10px 30px 10px;
 }
 .innerli:hover{
-    color: white;
+    color: black;
 }
 .labelinput{
     padding:25px 10px;
 }
-.button{
-    height: 30px;
-    font-size: 18px;
-    font-weight: bold;
-    font-family:"montserrat", sans-serif;
-    color: darkslategrey;
-    background-color: #111211;
-    border: 1px solid darkslategrey;
-}
-.button:hover{
-    color: #111211;
-    background-color: darkslategrey;
-}
 .inputfield{
-    font-size: 18px;
+    font-size: 20px;
     color: darkslategrey;
     width: 300px;
     height: 30px;
-    border: 1px solid darkslategrey;
+    border: 2px solid darkslategrey;
     background-color:black;
 }
 .mainauto{
@@ -71,7 +58,7 @@ body{
     display: block;
     width: 100%;
     background-color: darkslategrey;
-    box-shadow:0 10px 10px 0 rgba(0, 0, 0, 0.6);
+    box-shadow:0 10px 10px 0 rgba(0, 0, 0, 0.7);
 }
 .img{
     height:220px;
@@ -87,14 +74,13 @@ body{
 .hoveronly{
     background-color: black;
     color: darkslategrey;
-    border-left: 10px solid #111211;
+    border: 1px solid darkslategray;
 }
 .hoveronly:hover{
     transition: 0.3s ;
     background-color: darkslategrey;
     color: #111211;
     cursor: pointer;
-    border-left: 10px solid black;
 }
 .germanyauto{
     width: 40%;
