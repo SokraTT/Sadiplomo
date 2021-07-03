@@ -50,7 +50,6 @@ body{
     justify-content: space-evenly;
 }
 .flexcolumn{
-    background-color: ;
     border:1px solid darkslategray;
     width: 100%;
     box-shadow:0 15px 15px 0 rgba(0, 0, 0, 0.5);
@@ -73,6 +72,6 @@ body{
     height: 100%; 
 }
 .img{
-    height: 350px;
-    width: 520px;
+    height: 360px;
+    width: 540px;
 }
