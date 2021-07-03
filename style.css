@@ -33,6 +33,10 @@ body{
     font-size: 20px;
     padding: 30px 10px 30px 10px;
 }
+.innerli img{
+    margin-top:-10px;
+    height: 40px;
+}
 .innerli:hover{
     color: black;
 }
