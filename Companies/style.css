@@ -44,8 +44,16 @@ body{
     margin-top:-10px;
     height: 40px;
 }
+.transportcat{
+    padding-top: 200px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+}
 .maindiv{
-    padding-top:240px;
+    padding-top:50px;
     display:flex;
     justify-content: space-evenly;
 }
