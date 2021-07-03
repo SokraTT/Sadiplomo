@@ -42,6 +42,7 @@ body{
 }
 .labelinput{
     padding:25px 10px;
+    display: flex;
 }
 .inputfield{
     font-size: 20px;
