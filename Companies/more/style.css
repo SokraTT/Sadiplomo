@@ -41,19 +41,46 @@ body{
     color: black;
 }
 .space{
-    padding-top: 120px;
+    padding-top: 150px;
 }
 .tushetiabout{
+    background-color: silver;
     display: flex;
     border: 1px solid black;
+    border-radius: 10px;
     width: 90%;
     margin: 0px auto 30px auto;
-    padding: 10px;
     box-shadow:0px 10px 20px 5px rgba(0, 0, 0, 1);
+    background:rgba(255, 255, 255, 0.1);
+
 }
-.tusheti, p{
+.p1{
+    line-height:25px;
+    height: 500px;
+    font-size:20px;
+    color: silver;
+}
+.p2{
+    font-size:20px;
+    color:silver;
+    height: 500px;
+    line-height: 28px;
+}
+.p3{
     font-size: 20px;
     color: silver;
+    height: 500px;
+    line-height: 40px;
+}
+.text{
+    padding:10px 10px;
+}
+.image{
+    padding:10px 10px;
+}
+.image, img{
+    border-radius: 10px;
+    height: 500px;
 }
 
 
