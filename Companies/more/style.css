@@ -55,24 +55,26 @@ body{
 
 }
 .p1{
+    margin: auto;
     line-height:25px;
-    height: 500px;
     font-size:20px;
     color: silver;
 }
 .p2{
+    margin: auto;
     font-size:20px;
     color:silver;
-    height: 500px;
     line-height: 25px;
 }
 .p3{
+    margin: auto;
     font-size: 20px;
     color: silver;
-    height: 500px;
     line-height: 25px;
 }
 .text{
+    text-align:justify;
+    display: flex;
     padding:10px 10px;
 }
 .image{
