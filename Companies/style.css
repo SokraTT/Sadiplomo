@@ -1,6 +1,5 @@
 body{
     background-color:darkslategray;
-	height: 600px;
 }
 
 /*mtavari gverdis css kodi dakopirebuli da chasmuli*/
@@ -95,6 +94,6 @@ body{
     background-image: url(../img/gonio.jpg);
     background-repeat: no-repeat;
     background-size: 100%;   
-    background-position: center;
+    background-position:center;
 }
 
