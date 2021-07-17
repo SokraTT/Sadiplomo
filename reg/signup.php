@@ -1,13 +1,12 @@
 <?php 
 	
-	$name = $_POST ["name"];
-	$description = $_POST ["description"];
-	$address = $_POST ["address"];
-	$phone = $_POST {"phone"}
+	$username = $_POST ["username"];
+	$email = $_POST ["email"];
+	$password = $_POST ["password"];
 
 
 //bazastan dakavshireba  
-	if (!empty($name) || !empy($description) || !empty($address) || !empty($phone)) {
+	if (!empty($username) || !empy($email) || !empty($password)) {
 		$host = "localhost";
 		$dbUsername = "root";
 		$dbPassword = "";
@@ -19,10 +18,11 @@
 			die("Connect Error(".mysqli_connect_error().")" .mysqli_connect_error());
 		} else{
 			$SELECT = "SELECT email From registration Where email =? Limit 1";
-			$INSERT = "INSERT into registration (name, description, address, phone)";
+			$INSERT = "INSERT into registration (username, email, password)";
 
+			//ragaca azrze arvar raaris mara mainc :/
 			$stmt = $conn->prepare($SELECT);
-			$stmt->bind_param("sss", $name, $description, $address, $phone);
+			$stmt->bind_param("sss", $email, $username, $password,);
 			$stmt->execute();
 			$stmt->bind_result($email);
 			$stmt->store_result();
@@ -34,7 +34,7 @@
 						
 
 			$stmt = $conn->prepare("insert into registration(username, email, password) values(?,?,?)");
-				$stmt->bind_param("sssi", $name, $description, $address, $phone);
+				$stmt->bind_param("sss", $username, $email, $password);
 				$stmt->execute();
 				echo "registracia wamratebit dasrulda";
 			}
